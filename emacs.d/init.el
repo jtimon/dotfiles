@@ -25,8 +25,8 @@
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
 
-;; (load-theme 'sanityinc-solarized-dark)
-(load-theme 'sanityinc-tomorrow-night)
+;; Personal data like email, nicknames, passwords...
+(load-file "~/private/emacs.el")
 
 ;; why not?
 (eshell)

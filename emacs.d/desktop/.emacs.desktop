@@ -1,0 +1,117 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Mon Mar 25 20:12:36 2013
+;; Desktop file format version 206
+;; Emacs version 24.2.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/dotfiles/emacs.d/desktop/" "~/dotfiles/emacs.d/desktop" "~/dotfiles/emacs.d/desktop-files/" "~/dotfiles/emacs.d/desktop-files" "~/dotfiles/emacs.d/" "~/dotfiles/emacs.d/desktop" "~/dotfiles/emacs.d/jtimon/style.el" "~/dotfiles/emacs.d/jtimon/plantuml.el" "~/dotfiles/emacs.d/jtimon/external.el" "~/dotfiles/emacs.d/jtimon/personal.el" "/home/jtimon/dotfiles/emacs.d/custom.el" "/home/jtimon/dotfiles/emacs.d/jtimon/functions.el" "~/reorder-config/.emacs (copy)" "~/dotfiles/emacs.d/jtimon/deprecated.el" "~/dotfiles/emacs.d/jtimon/preferences.el" "~/dotfiles/emacs.d/jtimon/functions.el" "~/dotfiles/emacs.d/init.el" "~/org/TODO.org" "~/dotfiles/emacs.d/custom.el" "~/reorder-config/emacs.d (moon)/init.el" "~/dotfiles/.gitignore" "~/reorder-config/emacs.d (moon)/jtimon.el" "~/reorder-config/emacs.d (moon)/google-c-style.el" "~/.emacs.d/custom.el" "~/dotfiles/README.md" "~/workspace/ripple-client/src/js/tabs/trade.js" "~/dotfiles/conkerorrc" "~/.emacs.d/init.el" "~/dotfiles/bin/makesymlinks.sh" "~/workspace/freicoin/src/wallet.cpp"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  nil
+  "emacs.d"
+  'dired-mode
+  nil
+  230
+  '(nil nil)
+  t
+  '("/home/jtimon/dotfiles/emacs.d/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "desktop-files"
+  'dired-mode
+  nil
+  187
+  '(nil nil)
+  t
+  '("/home/jtimon/dotfiles/emacs.d/desktop-files/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/jtimon/dotfiles/emacs.d/jtimon/style.el"
+  "style.el"
+  'emacs-lisp-mode
+  '(auto-fill-mode)
+  88
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/jtimon/dotfiles/emacs.d/jtimon/deprecated.el"
+  "deprecated.el"
+  'emacs-lisp-mode
+  '(auto-fill-mode hi-lock-mode)
+  1412
+  '(1343 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/jtimon/dotfiles/emacs.d/jtimon/preferences.el"
+  "preferences.el"
+  'emacs-lisp-mode
+  '(auto-fill-mode)
+  1220
+  '(876 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/jtimon/dotfiles/emacs.d/jtimon/external.el"
+  "external.el"
+  'emacs-lisp-mode
+  '(auto-fill-mode hi-lock-mode)
+  565
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/jtimon/dotfiles/emacs.d/jtimon/personal.el"
+  "personal.el"
+  'emacs-lisp-mode
+  '(auto-fill-mode hi-lock-mode)
+  90
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/jtimon/dotfiles/emacs.d/jtimon/functions.el"
+  "functions.el"
+  'emacs-lisp-mode
+  '(auto-fill-mode)
+  796
+  '(463 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/jtimon/dotfiles/emacs.d/custom.el"
+  "custom.el"
+  'emacs-lisp-mode
+  '(auto-fill-mode)
+  1148
+  '(596 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
