@@ -1,0 +1,10 @@
+/emacs.d/auto-save-list
+/emacs.d/backups
+/emacs.d/custom.el
+/emacs.d/elpa
+/emacs.d/eshell/history
+/emacs.d/eshell/lastdir
+/emacs.d/places
+/emacs.d/session*
+/emacs.d/.smex-items
+
