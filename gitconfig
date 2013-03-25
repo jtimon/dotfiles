@@ -1,0 +1,7 @@
+[user]
+	name = jtimon
+	email = jtimonmv@gmail.com
+[credential]
+	helper = cache --timeout=7200
+[color]
+	ui = true
