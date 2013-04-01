@@ -6,10 +6,6 @@
 ;; http://shreevatsa.wordpress.com/2007/01/06/using-emacsclient/
 (remove-hook 'kill-buffer-query-functions 'server-kill-buffer-query-function)
 
-;; Pretty colors
-;; (load-theme 'sanityinc-solarized-dark)
-(load-theme 'sanityinc-tomorrow-night)
-
 ;; Saves session, more on http://www.emacswiki.org/emacs/DeskTop
 (desktop-save-mode 1)
 

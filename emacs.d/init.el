@@ -10,7 +10,7 @@
 
 (defvar my-packages '(starter-kit starter-kit-eshell starter-kit-js
                                   ;; starter-kit-lisp
-                                  color-theme color-theme-solarized color-theme-sanityinc-solarized color-theme-sanityinc-tomorrow
+                                  color-theme-sanityinc-tomorrow
                                   ;; undo-tree
                                   dtrt-indent
                                   markdown-mode
@@ -22,8 +22,12 @@
   (when (not (package-installed-p p))
     (package-install p)))
 
+;; Set file for Custom and load it
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
+
+;; Pretty colors
+(load-theme 'sanityinc-tomorrow-night)
 
 ;; Personal data like email, nicknames, passwords...
 (load-file "~/private/emacs.el")
