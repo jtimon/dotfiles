@@ -1,4 +1,7 @@
 
+;; I never suspend the frame anyway
+(global-set-key (kbd "C-z") 'undo)
+
 (global-set-key (kbd "<escape>")      'keyboard-quit)
 ;; search how to bind stuff for minibuffer
 ;; (global-set-key (kbd "<escape>")      'command abort-recursive-edit)
@@ -19,8 +22,19 @@
 ;; (global-set-key (kbd "C-<tab>") 'next-buffer)
 ;; (global-set-key (kbd "C-S-<iso-lefttab>") 'previous-buffer)
 
-(global-set-key (kbd "C-<tab>") 'other-window)
-(global-set-key (kbd "C-S-<iso-lefttab>") 'other-window)
+;; (global-set-key (kbd "C-<tab>") 'other-window)
+;; (global-set-key (kbd "C-S-<iso-lefttab>") 'other-window)
+;; (global-set-key (kbd "C-<tab>") (lambda () (interactive) (other-window 1))) ;; forward one
+;; (global-set-key (kbd "C-S-<iso-lefttab>") (lambda () (interactive) (other-window -2)) ;; back one
+(global-set-key (kbd "C-<tab>") 'other-window) ;; forward one
+;; TODO check if iso-lefttab is an ubuntu thing or starter kit has made it
+;; unnecesary. If it's a linux thing, change xmodmap to make the
+;; keybindings more multiplatform, as iso-lefttab is not working on windows
+;; (global-set-key (kbd "C-S-<iso-lefttab>") (other-window -2)) ;; back one
+(global-set-key (kbd "C-S-<tab>") (lambda () (interactive) (other-window -2)) ;; back one
+
+(windmove-default-keybindings) 
+(setq windmove-wrap-around t)
 
 (global-set-key (kbd "C-<escape>") 'next-buffer)
 (global-set-key (kbd "C-S-<escape>") 'previous-buffer)
