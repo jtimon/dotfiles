@@ -31,9 +31,9 @@
 ;; unnecesary. If it's a linux thing, change xmodmap to make the
 ;; keybindings more multiplatform, as iso-lefttab is not working on windows
 ;; (global-set-key (kbd "C-S-<iso-lefttab>") (other-window -2)) ;; back one
-(global-set-key (kbd "C-S-<tab>") (lambda () (interactive) (other-window -2)) ;; back one
+(global-set-key (kbd "C-S-<tab>") (lambda () (interactive) (other-window -1))) ;; back one
 
-(windmove-default-keybindings) 
+(windmove-default-keybindings)
 (setq windmove-wrap-around t)
 
 (global-set-key (kbd "C-<escape>") 'next-buffer)
