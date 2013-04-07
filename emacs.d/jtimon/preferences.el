@@ -37,7 +37,6 @@
 ;; Toggle with 'M-o'
 ;; http://www.emacswiki.org/emacs/DiredOmitMode
 (require 'dired-x)
-(setq-default dired-omit-files-p nil) ; this is buffer-local variable
 (setq dired-omit-files
       (concat dired-omit-files "\\|^\\..+$"))
 
