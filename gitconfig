@@ -1,6 +1,6 @@
 [user]
 	name = jtimon
-	email = jtimonmv@gmail.com
+	email = jtimon@monetize.io
 [credential]
 	helper = cache --timeout=7200
 [color]
