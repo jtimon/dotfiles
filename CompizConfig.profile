@@ -51,6 +51,8 @@ s0_next_key = <Alt>Tab
 s0_prev_key = <Shift><Alt>Tab
 s0_next_group_key = <Alt>Escape
 s0_prev_group_key = <Shift><Alt>Escape
+s0_overlay_icon = 2
+s0_multioutput_mode = 1
 
 [unityshell]
 s0_show_hud = Disabled
@@ -65,7 +67,7 @@ s0_alt_tab_timeout = false
 s0_alt_tab_bias_viewport = false
 s0_alt_tab_forward = Disabled
 s0_alt_tab_prev = Disabled
-s0_alt_tab_forward_all = <Shift><Control><Primary>Tab
+s0_alt_tab_forward_all = Disabled
 s0_alt_tab_prev_all = Disabled
 s0_icon_size = 32
 s0_edge_responsiveness = 8.000000
