@@ -20,6 +20,7 @@
                                   dtrt-indent
                                   markdown-mode
                                   less-css-mode
+                                  egg
                                   auto-complete)
   "A list of packages to ensure are installed at launch.")
 
