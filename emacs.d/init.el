@@ -1,7 +1,12 @@
-;; Marmalade repo required by starter-kit
+;; Package source repositories
 (require 'package)
-(add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/") t)
+(setq package-archives '(
+                         ("gnu" . "http://elpa.gnu.org/packages/")
+                         ("elpa" . "http://tromey.com/elpa/packages/")
+                         ("marmalade" . "http://marmalade-repo.org/packages/")
+                         ("melpa" . "http://melpa.milkbox.net/packages/")
+                         ("orgmode" . "http://orgmode.org/elpa/")
+))
 (package-initialize)
 
 ;; Package auto-install
