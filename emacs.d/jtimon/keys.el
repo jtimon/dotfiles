@@ -42,3 +42,8 @@
 
 ;; (define-key semantic-mode-map (kbd "C-c , P") 'semantic-analyze-proto-impl-toggle)
 ;; (define-key semantic-mode-map (kbd "C-c , h") 'semantic-decoration-include-visit)
+
+;; TODO find out why these mode maps don't work, or better, read about
+;; the right way to bind keys with hooks and all
+;; (define-key flyspell-mode-map (kbd "C-x /") 'flyspell-correct-word-before-point)
+(global-set-key (kbd "C-x /") 'flyspell-correct-word-before-point)
