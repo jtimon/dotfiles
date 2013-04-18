@@ -1,5 +1,6 @@
 [core]
 s0_active_plugins = core;composite;opengl;compiztoolbox;decor;imgpng;vpswitch;snap;commands;gnomecompat;expo;unitymtgrabhandles;resize;place;workarounds;regex;move;mousepoll;grid;session;ezoom;staticswitcher;wall;fade;scale;unityshell;
+s0_close_window_key = <Alt>4
 s0_maximize_window_key = <Super>Up
 s0_unmaximize_window_key = <Super>Down
 s0_show_desktop_key = <Super>d

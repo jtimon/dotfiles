@@ -8,7 +8,6 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-# files="bashrc vimrc vim zshrc oh-my-zsh private scrotwm.conf Xresources"    # list of files/folders to symlink in homedir
 
 ##########
 
@@ -27,7 +26,7 @@ for f in $(ls -a $dir); do
     if [ ! -r "$HOME/$f" ] &&
         [ $f != "." ] && [ $f != ".." ] && 
         [ "$f" != ".git" ] && [ $f != ".gitignore" ] &&
-        [ "$f" != "bin" ] && 
+        [ "$f" != "scripts" ] && 
         [ $f != "README.md" ] ; then
         echo "Moving $f from ~ to $olddir"
         mv ~/.$f $olddir
