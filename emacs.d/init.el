@@ -21,6 +21,7 @@
                                   markdown-mode
                                   less-css-mode
                                   egg
+                                  undo-tree
                                   auto-complete)
   "A list of packages to ensure are installed at launch.")
 
