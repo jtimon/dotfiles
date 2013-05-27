@@ -23,17 +23,16 @@
 ;; (global-set-key (kbd "C-S-<iso-lefttab>") 'previous-buffer)
 
 ;; Move between windows with C-<tab>
-(global-set-key (kbd "C-<tab>") 'other-window) ;; forward one
+(global-set-key (kbd "M-<escape>") 'other-window) ;; forward one
 (add-hook 'org-mode-hook
-          '(lambda ()
-             (define-key org-mode-map [(control tab)] nil)))
-(global-set-key (kbd "C-S-<tab>") (lambda () (interactive) (other-window -1))) ;; back one
+          '(lambda () (define-key org-mode-map [(control tab)] nil)))
+(global-set-key (kbd "M-S-<escape>") (lambda () (interactive) (other-window -1))) ;; back one
 
-(global-set-key (kbd "C-<escape>") 'next-buffer)
-(global-set-key (kbd "C-S-<escape>") 'previous-buffer)
+(global-set-key (kbd "M-<tab>") 'next-buffer)
+(global-set-key (kbd "M-S-<tab>") 'previous-buffer)
 
-(global-set-key (kbd "M-<escape>") 'other-frame)
-(global-set-key (kbd "M-S-<escape>") (lambda () (interactive) (other-frame -1)))
+(global-set-key (kbd "C-<escape>") 'other-frame)
+(global-set-key (kbd "C-S-<escape>") (lambda () (interactive) (other-frame -1)))
 
 (global-set-key "\C-ci"  'irc)
 
