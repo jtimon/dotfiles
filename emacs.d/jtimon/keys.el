@@ -1,4 +1,8 @@
 
+
+;; Cut, Copy and paste where everybody is used to
+(cua-mode)
+
 ;; I never suspend the frame anyway
 (global-set-key (kbd "C-z") 'undo)
 
