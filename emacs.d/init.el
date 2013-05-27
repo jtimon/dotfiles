@@ -36,8 +36,7 @@
 (load-theme 'sanityinc-tomorrow-night)
 
 ;; Personal data like email, nicknames, passwords...
-(load-file "~/private/emacs.el")
+(load-file "~/Desktop/.private/emacs.el")
 
 ;; why not?
-(eshell)
-
+(shell) 
