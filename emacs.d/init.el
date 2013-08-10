@@ -19,6 +19,8 @@
                                   ;; undo-tree
                                   dtrt-indent
                                   markdown-mode
+                                  pandoc-mode
+                                  org-pandoc
                                   less-css-mode
                                   egg
                                   undo-tree

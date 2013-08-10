@@ -10,5 +10,7 @@ gdebi
 gparted
 chromium-browser
 transmission-gtk
+pandoc
+virtualbox
 jdownloader
 texlive-full
