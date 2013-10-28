@@ -42,4 +42,4 @@
 (load-file "~/Desktop/.private/emacs.el")
 
 ;; why not?
-(shell) 
+;; (eshell) 
