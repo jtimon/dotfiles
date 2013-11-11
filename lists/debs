@@ -6,10 +6,11 @@ aspell-es
 quassel
 aircrack-ng
 chromium-browser
+build-essential
+python-dev
 virtualbox
 pkg-config
 vagrant
-heroku
 jdownloader
 gdebi
 gparted
