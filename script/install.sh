@@ -7,7 +7,7 @@
 lists=~/Desktop/.dotfiles/lists
 desktop=~/Desktop
 dir=~/Desktop/.dotfiles           # dotfiles directory
-private=~/Desktop/.private
+private=~/Desktop/.private_dotfiles
 olddir=~/dotfiles_old             # old dotfiles backup directory
 
 #######
