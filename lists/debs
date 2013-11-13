@@ -8,6 +8,7 @@ aircrack-ng
 chromium-browser
 build-essential
 python-dev
+ipython
 virtualbox
 pkg-config
 vagrant
