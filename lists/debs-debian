@@ -5,10 +5,11 @@ vlc
 aspell-es
 quassel
 aircrack-ng
-chromium-browser
+chromium
 build-essential
 python-dev
 ipython
+python-pip
 virtualbox
 pkg-config
 vagrant
@@ -16,3 +17,4 @@ jdownloader
 gdebi
 gparted
 transmission-gtk
+whois
