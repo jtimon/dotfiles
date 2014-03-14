@@ -40,5 +40,8 @@
 ;; Personal data like email, nicknames, passwords...
 (load-file "~/Desktop/.private/emacs.el")
 
+(toggle-fullscreen)
+;; (shell)
+(split-window-right)
 ;; why not?
 ;; (eshell) 
