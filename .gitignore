@@ -8,4 +8,5 @@
 /emacs.d/session*
 /emacs.d/.smex-items
 /emacs.d/semanticdb
-
+/emacs.d/.emacs.desktop
+/emacs.d/.emacs.desktop.lock
