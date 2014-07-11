@@ -43,7 +43,7 @@
 (load-file "~/Desktop/.private/emacs.el")
 
 (toggle-fullscreen)
-;; (shell)
+(shell)
 (split-window-right)
 ;; why not?
 ;; (eshell) 
