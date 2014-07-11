@@ -8,4 +8,4 @@
 [push]
 	default = simple
 [core]
-	editor = emacsclient -t
+	editor = emacsclient
