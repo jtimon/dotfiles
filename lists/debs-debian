@@ -1,5 +1,6 @@
 autoconf
 curl
+evince
 libtool
 git
 emacs24
@@ -20,3 +21,13 @@ gdebi
 gparted
 transmission-gtk
 whois
+pidgin
+pidgin-otr
+thunderbird
+texlive-full
+libboost-dev
+nodejs
+npm
+exuberant-ctags
+cscope
+xcscope-el
