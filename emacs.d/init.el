@@ -22,6 +22,8 @@
                                   python-mode
                                   less-css-mode
                                   egg
+                                  xcscope
+                                  rust-mode
                                   undo-tree
                                   auto-complete)
   "A list of packages to ensure are installed at launch.")
